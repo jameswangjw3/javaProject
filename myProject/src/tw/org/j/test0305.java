@@ -19,15 +19,15 @@ public class test0305 {
 //		boolean var4 = false;
 //==============================================================
 		double score = Math.random();
-		int intScore = (int)(score*101);  //產生 0 ~ 101 間的整數
-//		int intScore = (int)(score*6+1);  //產生 1 ~ 6        間的整數
+//		int intScore = (int)(score*101);  //產生 0 ~ 101 間的整數(不含101)
+		int intScore = (int)(score*6+1);  //產生 1 ~ 6        間的整數
 		System.out.println(intScore);
 		
-		if (intScore>=60){
-			System.out.println("Pass");
-		}else{
-			System.out.println("Down");
-		}
+//		if (intScore>=60){
+//			System.out.println("Pass");
+//		}else{
+//			System.out.println("Down");
+//		}
 		
 		
 	}
