@@ -6,7 +6,10 @@ public class test0305 {
 		// TODO Auto-generated method stub
 		// XXX	TEST
 		// FIXME HAVE BUG
-		System.out.println("Test 3");
+		char var1 = 'a';  //ASCII: 97
+		char var2 = 100;  //ASCII: d
+		
+		System.out.println(var1 + var2);  //數學運算
 	}
 
 }
