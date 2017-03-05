@@ -6,6 +6,7 @@ public class test0305 {
 		// TODO Auto-generated method stub
 		// XXX	TEST
 		// FIXME HAVE BUG
+		System.out.println("Test 2");
 	}
 
 }
