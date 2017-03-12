@@ -7,7 +7,7 @@ public class PokerV3 {
 		
 		long start = System.currentTimeMillis();
 		boolean[] check = new boolean[52];  //oranginal array [false]  
-		int[] poker = new int[52];          //
+		int[] poker = new int[52];          //distribute 52 pieces poker
 		int temp;
 		for(int i=0; i<52; i++){
 				//重複
